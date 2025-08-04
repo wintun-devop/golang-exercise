@@ -2,9 +2,14 @@ package main
 
 import (
 	"fmt"
+	"os"
+
+	"github.com/joho/godotenv"
 )
 
 func main() {
+	godotenv.Load(".env")
+	test := os.Getenv("APP_SECRET_KEY")
 	var conferenceName = "Go Conference"
 	const conferenceTickets = 50
 	var remainTickests = 50
@@ -28,6 +33,7 @@ func main() {
 	fmt.Printf("%v\n", userEmaail)
 	fmt.Printf("%v\n", bookings)
 	fmt.Printf("%T\n", bookings)
+	fmt.Printf("%v\n", test)
 
 	// calling outside function
 	executed()
