@@ -9,3 +9,8 @@ go get github.com/joho/godotenv
 ```
 go get github.com/lucsky/cuid
 ```
+
+### 
+```
+https://go.dev/ref/mod#go-mod-init
+```
