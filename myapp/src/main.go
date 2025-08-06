@@ -4,6 +4,9 @@ import (
 	"fmt"
 	"os"
 
+	"myapp/helpers"
+	"myapp/utils"
+
 	"github.com/joho/godotenv"
 )
 
@@ -22,11 +25,12 @@ func main() {
 	var userName string
 	var userEmaail string
 	var bookings [50]string
-	// user input
-	fmt.Printf("userName:\n")
-	fmt.Scan(&userName)
-	fmt.Printf("userEmail:\n")
-	fmt.Scan(&userEmaail)
+
+	// test user input
+	// fmt.Printf("userName:\n")
+	// fmt.Scan(&userName)
+	// fmt.Printf("userEmail:\n")
+	// fmt.Scan(&userEmaail)
 
 	// print out
 	fmt.Printf("%v\n", userName)
@@ -37,6 +41,10 @@ func main() {
 
 	// calling outside function
 	executed()
+	result := utils.Add(3, 5)
+	fmt.Println("Sum: test inside moodule", result)
+	id := helpers.GenerateCUID()
+	fmt.Println("Generated CUID:", id)
 }
 
 func executed() {

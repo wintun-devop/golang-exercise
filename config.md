@@ -6,3 +6,6 @@ go mod init your_app_name
 ```
 go get github.com/joho/godotenv
 ```
+```
+go get github.com/lucsky/cuid
+```
