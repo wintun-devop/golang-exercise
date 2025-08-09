@@ -9,3 +9,7 @@ func Add(a int, b int) int {
 	fmt.Println("print in direct function a", a, "b", b)
 	return a + b
 }
+
+func ConditionalTest() {
+	return
+}

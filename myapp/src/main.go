@@ -26,12 +26,6 @@ func main() {
 	var userEmaail string
 	var bookings [50]string
 
-	// test user input
-	// fmt.Printf("userName:\n")
-	// fmt.Scan(&userName)
-	// fmt.Printf("userEmail:\n")
-	// fmt.Scan(&userEmaail)
-
 	// print out
 	fmt.Printf("%v\n", userName)
 	fmt.Printf("%v\n", userEmaail)
@@ -45,6 +39,12 @@ func main() {
 	fmt.Println("Sum: test inside moodule", result)
 	id := helpers.GenerateCUID()
 	fmt.Println("Generated CUID:", id)
+
+	// Testing  user input
+	// fmt.Printf("userName:\n")
+	// fmt.Scan(&userName)
+	// fmt.Printf("userEmail:\n")
+	// fmt.Scan(&userEmaail)
 }
 
 func executed() {
