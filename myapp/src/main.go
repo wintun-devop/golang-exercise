@@ -45,6 +45,7 @@ func main() {
 	// fmt.Scan(&userName)
 	// fmt.Printf("userEmail:\n")
 	// fmt.Scan(&userEmaail)
+	utils.VariableTest()
 }
 
 func executed() {
