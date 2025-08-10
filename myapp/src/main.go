@@ -22,19 +22,9 @@ func main() {
 	fmt.Println("Get your ticket and go confrence.")
 	fmt.Printf("conferenceName is %T and conferenceTickets is %T.\n", conferenceName, conferenceTickets)
 
-	var userName string
-	var userEmaail string
-	var bookings [50]string
-
-	// print out
-	fmt.Printf("%v\n", userName)
-	fmt.Printf("%v\n", userEmaail)
-	fmt.Printf("%v\n", bookings)
-	fmt.Printf("%T\n", bookings)
-	fmt.Printf("%v\n", test)
+	fmt.Printf("API Key form Env%v\n", test)
 
 	// calling outside function
-	executed()
 	result := utils.Add(3, 5)
 	fmt.Println("Sum: test inside moodule", result)
 	id := helpers.GenerateCUID()
@@ -45,7 +35,11 @@ func main() {
 	// fmt.Scan(&userName)
 	// fmt.Printf("userEmail:\n")
 	// fmt.Scan(&userEmaail)
-	utils.VariableTest()
+	utils.MyVariableTest()
+	executed()
+	utils.MyLoopTest()
+	utils.MyConditionalTest()
+	utils.MyArrayTest()
 }
 
 func executed() {
