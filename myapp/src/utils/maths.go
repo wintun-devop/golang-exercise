@@ -10,6 +10,18 @@ func Add(a int, b int) int {
 	return a + b
 }
 
-func ConditionalTest() {
-	return
-}
+// func VariableTest() string {
+// 	const successMessage = "success"
+// 	type Person struct {
+// 		FirstName string
+// 		LastName  string
+// 		Age       int
+// 	}
+// 	// func (p Person) Name() string {
+// 	// return p.FirstName + " " + p.LastName
+// 	// }
+// 	// func (p Person) Describe() string {
+// 	// return fmt.Sprintf("%s is %d years old", p.Name(), p.Age)
+// 	// }
+// 	return successMessage
+// }
