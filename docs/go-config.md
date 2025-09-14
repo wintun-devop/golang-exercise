@@ -23,3 +23,6 @@ https://www.geeksforgeeks.org/go-language/identifiers-in-go-language/
 ```
 https://www.geeksforgeeks.org/go-language/data-types-in-go/
 ```
+```
+https://www.freecodecamp.org/news/arrays-slices-and-maps-in-go-a-quick-guide-to-collection-types/
+```
